@@ -12,7 +12,7 @@ $$
 \def\braket#1#2{\mathinner{\left\langle{#1}\middle|#2\right\rangle}}
 
 \def\C{\mathbb{C}}
-\def\Qbit{\C^{\otimes 2}}
+\def\Qbit{\C^{\oplus 2}}
 \def\cat#1{\mathscr{#1}}
 \def\id{\mathrm{id}}
 $$
