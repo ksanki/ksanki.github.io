@@ -79,24 +79,26 @@ $ \frac{1}{\sqrt{2}}\ket{00} + \frac{1}{\sqrt{2}}\ket{11} $
   $$ \rho = \{ \rho_{A} : A \otimes I \to A \}_{ A \in \cat{C} } $$
 
 コヒーレンス則は次の図式が可換になるという条件のことである：
-$$
-\begin{xy}
-\xymatrix{
-  & (\cat{A} \otimes \cat{B}) \otimes (\cat{C} \otimes \cat{D}) \ar[dr]^{\alpha} & \\
-  \cat{A} \otimes (\cat{B} \otimes (\cat{C} \otimes \cat{D})) \ar[ur]^{\alpha} \ar[d]^{\id \otimes \alpha}& & ((\cat{A} \otimes \cat{B}) \otimes \cat{C}) \otimes \cat{D} \\
-  \cat{A} \otimes ((\cat{B} \otimes \cat{C}) \otimes \cat{D}) \ar[rr]^{\alpha} & & (\cat{A} \otimes (\cat{B} \otimes \cat{C})) \otimes \cat{D} \ar[u]^{\alpha \otimes \id}
-}
-\end{xy}
-$$
 
-$$
+
+<p align="center" style="text-align: center;"><img align="center" src="https://tex.s2cms.com/svg/%0A%5Cbegin%7Bxy%7D%0A%5Cxymatrix%7B%0A%20%20%26%20(A%20%5Cotimes%20B)%20%5Cotimes%20(C%20%5Cotimes%20D)%20%5Car%5Bdr%5D%5E%7B%5Calpha%7D%20%26%20%5C%5C%0A%20%20A%20%5Cotimes%20(B%20%5Cotimes%20(C%20%5Cotimes%20D))%20%5Car%5Bur%5D%5E%7B%5Calpha%7D%20%5Car%5Bd%5D%5E%7B%5Cmathrm%7Bid%7D%20%5Cotimes%20%5Calpha%7D%26%20%26%20((A%20%5Cotimes%20B)%20%5Cotimes%20C)%20%5Cotimes%20D%20%5C%5C%0A%20%20A%20%5Cotimes%20((B%20%5Cotimes%20C)%20%5Cotimes%20D)%20%5Car%5Brr%5D%5E%7B%5Calpha%7D%20%26%20%26%20(A%20%5Cotimes%20(B%20%5Cotimes%20C))%20%5Cotimes%20D%20%5Car%5Bu%5D%5E%7B%5Calpha%20%5Cotimes%20%5Cmathrm%7Bid%7D%7D%0A%7D%0A%5Cend%7Bxy%7D%0A" alt="
 \begin{xy}
 \xymatrix{
-  (\cat{A} \otimes I) \otimes \cat{B} \ar[rr]^{\alpha} \ar[dr]^{\rho \otimes \id} & & \cat{A} \otimes (I \otimes \cat{B}) \ar[dl]^{\id \otimes \lambda} \\
-  & \cat{A} \otimes \cat{B} &
+  &amp; (A \otimes B) \otimes (C \otimes D) \ar[dr]^{\alpha} &amp; \\
+  A \otimes (B \otimes (C \otimes D)) \ar[ur]^{\alpha} \ar[d]^{\mathrm{id} \otimes \alpha}&amp; &amp; ((A \otimes B) \otimes C) \otimes D \\
+  A \otimes ((B \otimes C) \otimes D) \ar[rr]^{\alpha} &amp; &amp; (A \otimes (B \otimes C)) \otimes D \ar[u]^{\alpha \otimes \mathrm{id}}
 }
 \end{xy}
-$$
+" /></p>
+
+<p align="center" style="text-align: center;"><img align="center" src="https://tex.s2cms.com/svg/%0A%5Cbegin%7Bxy%7D%0A%5Cxymatrix%7B%0A%20%20(%5Ccathcal%7BA%7D%20%5Cotimes%20I)%20%5Cotimes%20B%20%5Car%5Brr%5D%5E%7B%5Calpha%7D%20%5Car%5Bdr%5D%5E%7B%5Crho%20%5Cotimes%20%5Cmathrm%7Bid%7D%7D%20%26%20%26%20A%20%5Cotimes%20(I%20%5Cotimes%20B)%20%5Car%5Bdl%5D%5E%7B%5Cmathrm%7Bid%7D%20%5Cotimes%20%5Clambda%7D%20%5C%5C%0A%20%20%26%20A%20%5Cotimes%20B%20%26%0A%7D%0A%5Cend%7Bxy%7D%0A" alt="
+\begin{xy}
+\xymatrix{
+  (\cathcal{A} \otimes I) \otimes B \ar[rr]^{\alpha} \ar[dr]^{\rho \otimes \mathrm{id}} &amp; &amp; A \otimes (I \otimes B) \ar[dl]^{\mathrm{id} \otimes \lambda} \\
+  &amp; A \otimes B &amp;
+}
+\end{xy}
+" /></p>
 
 ### 例
 集合と写像のなす圏$ \mathbf{Set} $は集合の直積をテンソル積とすることでモノイダル圏になる．
