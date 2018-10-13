@@ -133,6 +133,6 @@ $a : I \to A, b : I \to B$と思うと$s = a \times b$であるから$s$は積�
 つまり$ \mathbf{Set} $ではエンタングル状態は存在しない．
 
 ## 参考文献
-1. Chris Heunen. *Foundations of Quantum Programming*. Elsevier, 2016.
 1. Chris Heunen and Jamie Vicary. *Lectures on Categorical Quantum Mechanics*. 2012. URL: [https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf)
 1. Saunders Mac Lane. *Categories for the Working Mathematician*. Springer, 2nd edition, 1971.
+1. Mingsheng Ying. *Foundations of Quantum Programming*. Morgan Kaufmann Publishers Inc., 2016.
