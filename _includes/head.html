@@ -11,6 +11,11 @@
   <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     jax: ["input/TeX","output/HTML-CSS", "output/PreviewHTML"],
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ["\\[","\\]"]],
+      processEscapes: true
+    },
     extensions: ["tex2jax.js","MathMenu.js","MathZoom.js", "fast-preview.js", "AssistiveMML.js", "a11y/accessibility-menu.js"],
     TeX: { extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js","https://ksanki.github.io/xypic.js"] }
   });
