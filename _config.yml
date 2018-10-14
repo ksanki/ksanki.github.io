@@ -16,7 +16,7 @@
 title: 不動点
 email: ksanki.kagaku@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  このWebサイトは数学や計算機科学に関するブログです．
+  数学や計算機科学に関するブログです．
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ksanki.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
