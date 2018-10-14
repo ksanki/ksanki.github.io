@@ -47,7 +47,7 @@ $$
   \text{(Identity)}
 }, \
 \displaystyle{
-  \frac{\vdash \Gamma, A \quad \vdash A^{\bot}, \Gamma}
+  \frac{\vdash \Gamma, A \quad \vdash A^{\bot}, \Delta}
   {\vdash \Gamma, \Delta }
   \text{(Cut)}
 },
@@ -88,7 +88,7 @@ $$
   \text{no rule for $\zero$},
   \\
   \displaystyle{
-    \frac{\vdash \Gamma, A \quad \Gamma \vdash B}
+    \frac{\vdash \Gamma, A \quad \vdash \Gamma, B}
     {\vdash \Gamma, A \& B}
     \text{($\&$)}
   }, &
