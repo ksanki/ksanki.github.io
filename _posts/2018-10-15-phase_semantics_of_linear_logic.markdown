@@ -63,7 +63,7 @@ $ m \in X^{\bot\bot} = Y^{\bot\bot\bot} $が任意に与えられたとする．
 ### ファクトの演算
 ファクト$X,Y$に対して，次のように定める．
 
-- $ X \otimes Y := (XY)^{\bot\bot} = \\{ mn \mid m \in X, n \in Y \\} $
+- $ X \otimes Y := (XY)^{\bot\bot} = \\{ mn \mid m \in X, n \in Y \\}^{\bot\bot} $
 - $ X \par Y := (X^{\bot} \otimes Y^{\bot})^{\bot} $
 - $ \one := \\{ 1 \\}^{\bot\bot} $
 - $ X \with Y := X \cap Y $
