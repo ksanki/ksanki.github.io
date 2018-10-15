@@ -129,6 +129,9 @@ $$
 これでシークエント計算を定義できた．
 今後，線形論理の相意味論や，シークエント計算の相意味論に関する健全性・完全性定理についての記事を書く予定．
 
+2018-10-15 追記:
+相意味論の記事を書いた：「[線形論理の相意味論](/2018/10/15/phase_semantics_of_linear_logic.html)」
+
 ## 参考文献
 - J.-Y. Girard. Linear logic. *Theoretical Computer Science*, Vol. 50, pp. 1-102, 1987.
 - J.-Y. Girard. Linear logic: Its syntax and semantics. In J.-Y. Girard, Y. Lafont, and L. Regnier, editors, *Advances in Linear Logic*, pp. 1-42. Cambridge University Press, 1995.
