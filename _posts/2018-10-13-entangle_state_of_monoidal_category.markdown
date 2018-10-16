@@ -80,25 +80,26 @@ $ \frac{1}{\sqrt{2}}\ket{00} + \frac{1}{\sqrt{2}}\ket{11} $
 
 コヒーレンス則は次の図式が可換になるという条件のことである：
 
-
-<p align="center" style="text-align: center;"><img align="center" src="https://tex.s2cms.com/svg/%0A%5Cbegin%7Bxy%7D%0A%5Cxymatrix%7B%0A%20%20%26%20(A%20%5Cotimes%20B)%20%5Cotimes%20(C%20%5Cotimes%20D)%20%5Car%5Bdr%5D%5E%7B%5Calpha%7D%20%26%20%5C%5C%0A%20%20A%20%5Cotimes%20(B%20%5Cotimes%20(C%20%5Cotimes%20D))%20%5Car%5Bur%5D%5E%7B%5Calpha%7D%20%5Car%5Bd%5D%5E%7B%5Cmathrm%7Bid%7D%20%5Cotimes%20%5Calpha%7D%26%20%26%20((A%20%5Cotimes%20B)%20%5Cotimes%20C)%20%5Cotimes%20D%20%5C%5C%0A%20%20A%20%5Cotimes%20((B%20%5Cotimes%20C)%20%5Cotimes%20D)%20%5Car%5Brr%5D%5E%7B%5Calpha%7D%20%26%20%26%20(A%20%5Cotimes%20(B%20%5Cotimes%20C))%20%5Cotimes%20D%20%5Car%5Bu%5D%5E%7B%5Calpha%20%5Cotimes%20%5Cmathrm%7Bid%7D%7D%0A%7D%0A%5Cend%7Bxy%7D%0A" alt="
+![五角形の図式](/img/2018-10-13-entangle_state_of_monoidal_category/pentagon.svg)
+<!--
 \begin{xy}
 \xymatrix{
-  &amp; (A \otimes B) \otimes (C \otimes D) \ar[dr]^{\alpha} &amp; \\
-  A \otimes (B \otimes (C \otimes D)) \ar[ur]^{\alpha} \ar[d]^{\mathrm{id} \otimes \alpha}&amp; &amp; ((A \otimes B) \otimes C) \otimes D \\
-  A \otimes ((B \otimes C) \otimes D) \ar[rr]^{\alpha} &amp; &amp; (A \otimes (B \otimes C)) \otimes D \ar[u]^{\alpha \otimes \mathrm{id}}
+  & (A \otimes B) \otimes (C \otimes D) \ar[dr]^{\alpha} & \\
+  A \otimes (B \otimes (C \otimes D)) \ar[ur]^{\alpha} \ar[d]^{\mathrm{id} \otimes \alpha} & & ((A \otimes B) \otimes C) \otimes D \\
+  A \otimes ((B \otimes C) \otimes D) \ar[rr]^{\alpha} & & (A \otimes (B \otimes C)) \otimes D \ar[u]^{\alpha \otimes \mathrm{id}}
 }
 \end{xy}
-" /></p>
+-->
 
-<p align="center" style="text-align: center;"><img align="center" src="https://tex.s2cms.com/svg/%0A%5Cbegin%7Bxy%7D%0A%5Cxymatrix%7B%0A%20%20(%5Ccathcal%7BA%7D%20%5Cotimes%20I)%20%5Cotimes%20B%20%5Car%5Brr%5D%5E%7B%5Calpha%7D%20%5Car%5Bdr%5D%5E%7B%5Crho%20%5Cotimes%20%5Cmathrm%7Bid%7D%7D%20%26%20%26%20A%20%5Cotimes%20(I%20%5Cotimes%20B)%20%5Car%5Bdl%5D%5E%7B%5Cmathrm%7Bid%7D%20%5Cotimes%20%5Clambda%7D%20%5C%5C%0A%20%20%26%20A%20%5Cotimes%20B%20%26%0A%7D%0A%5Cend%7Bxy%7D%0A" alt="
+![三角形の図式](/img/2018-10-13-entangle_state_of_monoidal_category/triangle.svg)
+<!--
 \begin{xy}
 \xymatrix{
-  (\cathcal{A} \otimes I) \otimes B \ar[rr]^{\alpha} \ar[dr]^{\rho \otimes \mathrm{id}} &amp; &amp; A \otimes (I \otimes B) \ar[dl]^{\mathrm{id} \otimes \lambda} \\
-  &amp; A \otimes B &amp;
+  (\cathcal{A} \otimes I) \otimes B \ar[rr]^{\alpha} \ar[dr]^{\rho \otimes \mathrm{id}} & & A \otimes (I \otimes B) \ar[dl]^{\mathrm{id} \otimes \lambda} \\
+  & A \otimes B &
 }
 \end{xy}
-" /></p>
+-->
 
 ### 例
 集合と写像のなす圏$ \mathbf{Set} $は集合の直積をテンソル積とすることでモノイダル圏になる．
