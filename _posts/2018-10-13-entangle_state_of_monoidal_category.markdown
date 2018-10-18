@@ -4,7 +4,7 @@ title:  "モノイダル圏のエンタングル状態"
 tags:
   - 量子力学
   - モノイダル圏
-  - ヒルベルト空間
+  - 関数解析
 ---
 $$
 \def\bra#1{\mathinner{\left\langle{#1}\right|}}
