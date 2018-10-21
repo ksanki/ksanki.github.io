@@ -33,4 +33,5 @@ $A = B = \Z \times \Z $とし，$f := \id : \Z \times \Z \to \Z \times \Z$とす
 このことから一つしかない射$\iota : \Z \to \Z \times \Z$に対して$f \circ \iota = g \circ \iota$が成り立つ．
 よって可換環と環準同型のなす圏$\mathbf{CRing}$は well-pointed ではない．
 
+## 参考文献
 1. <a name="Heunen-Vicary"></a>Chris Heunen and Jamie Vicary. *Lectures on Categorical Quantum Mechanics*. 2012. URL: [https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf)
