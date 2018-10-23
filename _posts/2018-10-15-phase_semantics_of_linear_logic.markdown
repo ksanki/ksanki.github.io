@@ -67,7 +67,7 @@ $ m \in X^{\bot\bot} = Y^{\bot\bot\bot} $が任意に与えられたとする．
 - $ X \par Y := (X^{\bot} \otimes Y^{\bot})^{\bot} $
 - $ \one := \\{ 1 \\}^{\bot\bot} $
 - $ X \with Y := X \cap Y $
-- $ X \otimes Y := (X^{\bot} \with Y^{\bot})^{\bot} $
+- $ X \oplus Y := (X^{\bot} \with Y^{\bot})^{\bot} $
 - $ \top := \emptyset^{\bot} = M $
 - $ \zero := \top^{\bot} = \emptyset^{\bot\bot} $
 - $ ! X := (X \cap I)^{\bot\bot} $，ここで$I = \\{ m \in M \mid mm = m \\}$は$M$のべき等元の集合である．
