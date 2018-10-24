@@ -95,10 +95,11 @@ $ m \in X^{\bot\bot} = Y^{\bot\bot\bot} $が任意に与えられたとする．
 ### 健全性定理
 $ \vdash \Gamma $が証明可能ならば$\Gamma$はトートロジーである．
 
+[証明](/2018/10/23/soundness_of_linear_logic.html)
+
 ### 完全性定理
 $ \vdash \Gamma $が証明可能であることと$\Gamma$はトートロジーであることは同値である．
 
-今後，この健全性定理・完全性定理の証明を書く予定．
 
 ## 参考文献
 - J.-Y. Girard. Linear logic. *Theoretical Computer Science*, Vol. 50, pp. 1-102, 1987.
