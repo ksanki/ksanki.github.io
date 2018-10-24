@@ -70,7 +70,7 @@ $ m \in X^{\bot\bot} = Y^{\bot\bot\bot} $が任意に与えられたとする．
 - $ X \oplus Y := (X^{\bot} \with Y^{\bot})^{\bot} $
 - $ \top := \emptyset^{\bot} = M $
 - $ \zero := \top^{\bot} = \emptyset^{\bot\bot} $
-- $ ! X := (X \cap I)^{\bot\bot} $，ここで$I = \\{ m \in M \mid mm = m \\}$は$M$のべき等元の集合である．
+- $ ! X := (X \cap I)^{\bot\bot} $，ここで$I = \\{ m \in \one \mid mm = m \\}$は$M$のべき等元で$\one$に属するもの全体の集合である．
 - $ ? X := (X^{\bot} \cap I)^{\bot} $
 
 ### 論理式の妥当性
