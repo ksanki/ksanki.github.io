@@ -23,7 +23,7 @@ $f=g$であるとき，またそのときのみ任意の射$a : I \to A$に対�
 集合と写像のなす圏$\mathbf{Set}$は well-pointed なモノイダル圏である．
 また，ヒルベルト空間と有界線型写像のなす圏$\mathbf{Hilb}$も well-pointed なモノイダル圏である．
 
-一方，可換環と環準同型のなすモノイダル圏$\mathbf{CRing}$は well-pointed ではない．
+一方，可換環と環準同型のなすモノイダル圏$\mathbf{CRing}$（テンソル積は可換環の$\Z$代数としてのテンソル積$\otimes_{\Z}$）は well-pointed ではない．
 このことを証明する．
 可換環のなすモノイダル圏では$ I := \Z $である．
 $A = B = \Z \times \Z $とし，$f := \id : \Z \times \Z \to \Z \times \Z$とする．
