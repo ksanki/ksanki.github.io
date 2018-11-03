@@ -49,3 +49,7 @@ $\vdash A, A^{\bot}$は証明可能なので$A \in \Pr(A^{\bot})$である．
 これによって相構造$(M, \bot, S)$を定めることができた．
 今，論理式$A$がトートロジーであるとする．
 すると$\emptyset \in S(A) = \Pr(A)$であり，これは$\vdash A$がシークエント計算で証明可能であることを意味する．
+
+## 参考文献
+- J.-Y. Girard. Linear logic. *Theoretical Computer Science*, Vol. 50, pp. 1-102, 1987.
+- J.-Y. Girard. Linear logic: Its syntax and semantics. In J.-Y. Girard, Y. Lafont, and L. Regnier, editors, *Advances in Linear Logic*, pp. 1-42. Cambridge University Press, 1995.
