@@ -9,6 +9,7 @@ $$
 \def\ket#1{\mathinner{\left|{#1}\right\rangle}}
 \def\braket#1#2{\mathinner{\left\langle{#1}\middle|#2\right\rangle}}
 
+\def\C{\mathbb{C}}
 \def\Qbit{\C^{\oplus 2}}
 $$
 
@@ -33,7 +34,7 @@ $ \ket{\phi}_A := \alpha \ket{0}_A + \beta \ket{1}_A $
 $$
 \begin{align*}
   U \ket{\phi}_A \ket{0}_B
-  &= U \paren{\alpha \ket{0}_A + \beta \ket{1}_A} \ket{0}_B \\
+  &= U (\alpha \ket{0}_A + \beta \ket{1}_A) \ket{0}_B \\
   &= \alpha U \ket{0}_A \ket{0}_B + \beta U \ket{1}_A \ket{0}_B \\
   &= \alpha \ket{0}_A \ket{0}_B + \beta \ket{1}_A \ket{1_B}
 \end{align*}
@@ -44,7 +45,7 @@ $$
 \begin{align*}
   U \ket{\phi}_A \ket{0}_B
   &= \ket{\phi}_A \ket{\phi}_B \\
-  &= \paren{\alpha \ket{0}_A + \beta \ket{1}_A} \paren{\alpha \ket{0}_B + \beta \ket{1}_B} \\
+  &= (\alpha \ket{0}_A + \beta \ket{1}_A) (\alpha \ket{0}_B + \beta \ket{1}_B) \\
   &= \alpha^2 \ket{0}_A \ket{0}_B + \alpha \beta \ket{0}_A \ket{1}_B \\
       + \beta \alpha \ket{1}_A \ket{0}_B + \beta^2 \ket{1}_A \ket{1}_B \\
 \end{align*}
