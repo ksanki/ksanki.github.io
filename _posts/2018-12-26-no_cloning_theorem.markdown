@@ -41,7 +41,7 @@ $$
   U \ket{\phi}_A \ket{0}_B
   &= U (\alpha \ket{0}_A + \beta \ket{1}_A) \ket{0}_B \\
   &= \alpha U \ket{0}_A \ket{0}_B + \beta U \ket{1}_A \ket{0}_B \\
-  &= \alpha \ket{0}_A \ket{0}_B + \beta \ket{1}_A \ket{1_B}
+  &= \alpha \ket{0}_A \ket{0}_B + \beta \ket{1}_A \ket{1}_B
 \end{align*}
 $$
 
