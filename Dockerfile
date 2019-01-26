@@ -15,3 +15,8 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 RUN gem install bundler -v 1.16.6
+
+# After build a image from this file, you can execute jekyll by following commands:
+# bundle install
+# bundle exec jekyll serve
+
