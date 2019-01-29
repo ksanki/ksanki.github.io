@@ -4,6 +4,8 @@ title:  "量子コンピュータ入門"
 tags:
   - 量子コンピュータ
 ---
+English version is [here](index-en.html).
+
 $$
 \def\blo#1{\mathop{\mathcal{L}}(#1)}
 \def\H{\mathcal{H}}
