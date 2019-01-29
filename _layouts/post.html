@@ -19,6 +19,10 @@ layout: default
     {{ content }}
   </div>
 
+  {%- if jekyll.environment == 'production' -%}
+    {%- include footer_ad.html -%}
+  {%- endif -%}
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
