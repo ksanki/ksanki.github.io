@@ -4,3 +4,6 @@
 
 layout: home
 ---
+
+# Series
+<h2><a href="/series/quantum-computing/index.html">量子コンピュータ入門</a></h2>
