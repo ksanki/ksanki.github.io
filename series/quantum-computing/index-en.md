@@ -17,7 +17,7 @@ In this series of articles, I introduce the principles of quantum computing.
 I will make a program to simulate quantum computation in classical computer.
 I assume that you already know easy linear algebra.
 I use OCaml to write a program.
-However, you can understand these articles if you have experience of write programs in some language.
+However, you can understand these articles if you have experience of writing programs in some programming language.
 
 ## Index
 I am planning to write fllowing articles.
