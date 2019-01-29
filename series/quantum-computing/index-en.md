@@ -31,7 +31,7 @@ I am planning to write fllowing articles.
   - Quantum Composite System
   - Time Evolution of Quantum State
   - Measurement
-- No-cloning System
+- No-cloning Theorem
 - Quantum Teleportation
 - Deutsch-Jozsa algorithm
 
