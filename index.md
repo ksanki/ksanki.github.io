@@ -5,5 +5,9 @@
 layout: home
 ---
 
-# Series
-<h2><a href="/series/quantum-computing/index.html">量子コンピュータ入門</a></h2>
+<h2 class="post-list-heading">Series</h2>
+<h3>
+  <a class="post-link" href="/series/quantum-computing/index.html">
+    量子コンピュータ入門
+  </a>
+</h3>
