@@ -11,3 +11,7 @@ layout: home
     量子コンピュータ入門
   </a>
 </h3>
+English version:
+<a href="/series/quantum-computing/index-en.html">
+  Let's Implement Quantum Computer!
+</a>
