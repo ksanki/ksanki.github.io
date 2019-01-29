@@ -23,7 +23,7 @@ However, you can understand these articles if you have experience of writing pro
 I am planning to write fllowing articles.
 
 - Super Introduction to OCaml
-- [Reviw of Linear Algebra](introduction-to-linear-algebra-en.html)
+- [Review of Linear Algebra](introduction-to-linear-algebra-en.html)
 - Implementation of Linear Algebra
 - Tensor Product
 - The Principles of Quantum Computation
