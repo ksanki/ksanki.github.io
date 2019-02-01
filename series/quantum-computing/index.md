@@ -22,7 +22,7 @@ $$
 以下は執筆予定の事柄である．
 内容を削ったり増やしたり分割したり順番を入れ替えたりする可能性がある．
 
-- OCaml 超入門
+- [OCaml 超入門](super-introduction-to-OCaml.html)
 - [線型代数の復習](introduction-to-linear-algebra.html)
 - 線型代数の実装
 - テンソル積
