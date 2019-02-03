@@ -28,7 +28,7 @@ OCaml is a functional programming language.
 However fortunately (or unfortunately) we can easily write procedural codes.
 We explain how to write OCaml code in this article for the readers who have not written codes in OCaml.
 Note that the grammar explained followings is minimum for our purpose.
-Some important part of OCaml are not refered.
+Some important parts of OCaml are not refered.
 
 ## Grammar
 In OCaml, a string enclosed by `(*` `*)` is a comment.
@@ -74,7 +74,7 @@ The type of boolean value is `bool`.
 
 ### Conditional
 We use `if ... then ... else ...` to express conditional.
-Unlike other procedure procedural languages, we do not omit `else`.
+Unlike other procedural languages, we do not omit `else`.
 We have to place expressions that have the same type after `then` and `else`.
 ```ocaml
 let res0 = if 0 <= 100 then 1 else -1 (* 1 *)
@@ -111,7 +111,7 @@ let d1 = discr 1. 5. 3. (* true *)
 The type of this function is `float -> float -> float -> bool`.
 Looking into this type in detail.
 `->` is right-associative, so we can rewrite it and get `float -> (float -> (float -> bool))`.．
-That is, `discr` is a function that takes one argument of type `float` and returns a value of type `float -> (float -> bool)`.n
+That is, `discr` is a function that takes one argument of type `float` and returns a value of type `float -> (float -> bool)`.
 What does this mean?
 Now, Assume that we would like a function to check if there exists a real-number solution for given monic polynomial of degree two.
 It is tedious to write again similar code above.
@@ -124,7 +124,7 @@ We think of multi argument function `discr` as one that takes single argument an
 This is *currying*.
 
 ### Recursion
-Recursion is the one of most important notion of functional programming.
+Recursion is one of the most important notion of functional programming.
 In OCaml, we use `let rec` to write recursive function.
 For example, to get $n$th Fibonacci number we write as follows:
 ```ocaml
