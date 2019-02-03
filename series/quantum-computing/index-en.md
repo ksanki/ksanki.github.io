@@ -22,7 +22,7 @@ However, you can understand these articles if you have experience of writing pro
 ## Index
 I am planning to write fllowing articles.
 
-- Super Introduction to OCaml
+- [Super Introduction to OCaml](super-introduction-to-OCaml-en.html)
 - [Review of Linear Algebra](introduction-to-linear-algebra-en.html)
 - Implementation of Linear Algebra
 - Tensor Product

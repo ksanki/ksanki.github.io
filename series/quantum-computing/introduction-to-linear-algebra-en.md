@@ -4,7 +4,10 @@ title:  "Review of Linear Algebra"
 tags:
   - Quantum Computer
 ---
-Jan. 29, 2019. Let's Implement Quantum Computer! [index](index-en.html)
+
+Jan. 29, 2019.
+
+Let's Implement Quantum Computer! [Index](index-en.html) [<Previous\|](super-introduction-to-OCaml-en.html)
 
 $$
 \def\blo#1{\mathop{\mathcal{L}}(#1)}
@@ -104,3 +107,5 @@ X^{\dagger} X
 = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
 = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}.
 $$
+
+Jan. 29, 2019. Let's Implement Quantum Computer! [Index](index-en.html) [<Previous\|](super-introduction-to-OCaml-en.html)
