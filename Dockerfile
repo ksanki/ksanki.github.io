@@ -16,7 +16,6 @@ RUN apt-get update && \
 
 RUN gem install bundler -v 1.16.6
 
-# After build a image from this file, you can execute jekyll by following commands:
-# bundle install
-# bundle exec jekyll serve
-
+COPY . /ksanki.github.io
+WORKDIR /ksanki.github.io
+CMD bundle install && bundle exec jekyll serve --host 0.0.0.0 --port 8123
