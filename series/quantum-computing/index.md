@@ -25,7 +25,7 @@ $$
 - [OCaml 超入門](super-introduction-to-OCaml.html)
 - [線型代数の復習](introduction-to-linear-algebra.html)
 - 線型代数の実装
-- テンソル積
+- [テンソル積](tensor-product.html)
 - 量子計算の原理
   - 量子状態
   - 複合量子系

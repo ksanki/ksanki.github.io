@@ -7,7 +7,7 @@ tags:
 
 2019年1月29日
 
-量子コンピュータ入門 [目次](index.html) [<前\|](super-introduction-to-OCaml.html)
+量子コンピュータ入門 [目次](index.html) [<前\|](super-introduction-to-OCaml.html) [\|次>](tensor-product.html)
 
 $$
 \def\blo#1{\mathop{\mathcal{L}}(#1)}
@@ -109,4 +109,4 @@ $$
 
 を満たすのでユニタリ作用素である．
 
-量子コンピュータ入門 [目次](index.html) [<前\|](super-introduction-to-OCaml.html)
+量子コンピュータ入門 [目次](index.html) [<前\|](super-introduction-to-OCaml.html) [\|次>](tensor-product.html)
